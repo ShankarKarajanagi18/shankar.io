@@ -62,10 +62,6 @@ export const technologies = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   },
   {
-    name: "Node JS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-  },
-  {
     name: "MongoDB",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
   },
@@ -89,7 +85,7 @@ export const technologies = [
 
 export const projects = [
   {
-    name: "Twitter Clone",
+    name: "Social Media Application",
     description:
       "A comprehensive social media mobile application with authentication, timeline feeds, tweet composition, and profile management using Java and Android Studio with Flask backend.",
     tags: [
@@ -106,30 +102,31 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://via.placeholder.com/400x300/4AABFF/FFFFFF?text=Twitter+Clone",
-    source_code_link: "https://github.com/ShankarKarajanagi18/twitter-clone",
+    image: "https://neilpatel.com/wp-content/uploads/2021/08/social-media-marketing-tools.jpg",
+    source_code_link: "https://github.com/ShankarKarajanagi18/twitterclone",
   },
   {
-    name: "Salon Booking Platform",
-    description:
-      "A salon booking website with separate login systems for customers and salon owners, featuring interactive animations and MongoDB integration.",
-    tags: [
-      {
-        name: "flask",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Salon+Booking",
-    source_code_link: "https://github.com/ShankarKarajanagi18/salon-booking",
-  },
+  name: "Dynamic Airline Seat Pricing Strategy",
+  description:
+    "A smart, real-time pricing system that revolutionizes airline ticket pricing using machine learning and streaming data technologies to optimize revenue and maximize seat occupancy dynamically.",
+  tags: [
+    {
+      name: "machine-learning",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "real-time",
+      color: "green-text-gradient",
+    },
+    {
+      name: "data-science",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+  source_code_link: "https://github.com/ShankarKarajanagi18/Dynamic-Airline-Seat-Pricing",
+ },
+
   {
     name: "Travel Booking App",
     description:
@@ -148,7 +145,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://via.placeholder.com/400x300/10B981/FFFFFF?text=Travel+Booking",
-    source_code_link: "https://github.com/ShankarKarajanagi18/travel-booking",
+    image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=300&fit=crop",
+    source_code_link: "https://github.com/ShankarKarajanagi18/plan-and-trip",
   },
 ];

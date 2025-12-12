@@ -74,7 +74,7 @@ const AchievementCard = ({ title, description, icon }) => {
   );
 };
 
-const Education = () => {
+const EducationComponent = () => {
   return (
     <>
       <motion.div variants={textVariant()} className="text-center">
@@ -154,4 +154,5 @@ const Education = () => {
   );
 };
 
-export default SectionWrapper(Education, "education");
+const Education = SectionWrapper(EducationComponent, "education");
+export default Education;

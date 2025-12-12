@@ -45,7 +45,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
   );
 };
 
-const Works = () => {
+const WorksComponent = () => {
   return (
     <>
       <motion.div variants={textVariant()} className="text-center">
@@ -75,4 +75,5 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "work"); // ← KEEP AS "work"
+const Works = SectionWrapper(WorksComponent, "work");
+export default Works;

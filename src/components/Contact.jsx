@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import SectionWrapper from "../hoc/SectionWrapper";
 
-const Contact = () => {
+const ContactComponent = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -123,7 +123,7 @@ const Contact = () => {
 
         {/* LinkedIn */}
         <a
-          href="https://linkedin.com/in/shankar-karajanagi"
+          href="https://www.linkedin.com/in/karajanagi-shankar-piragonda/"
           target="_blank"
           rel="noopener noreferrer"
           className="w-16 h-16 rounded-full bg-[#2D3748] hover:bg-[#4A5568] transition-all flex items-center justify-center"
@@ -135,7 +135,7 @@ const Contact = () => {
 
         {/* Twitter/X */}
         <a
-          href="https://twitter.com/your-twitter-handle"
+          href="https://x.com/Shankar__45"
           target="_blank"
           rel="noopener noreferrer"
           className="w-16 h-16 rounded-full bg-[#2D3748] hover:bg-[#4A5568] transition-all flex items-center justify-center"
@@ -234,4 +234,5 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, "contact");
+const Contact = SectionWrapper(ContactComponent, "contact");
+export default Contact;

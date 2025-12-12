@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "../hoc/SectionWrapper";
 
-const About = () => {
+const AboutComponent = () => {
   return (
     <>
       <motion.div variants={textVariant()} className="text-center">
@@ -18,15 +18,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto text-center'
       >
-        I'm a passionate full-stack developer with expertise in Java, Python Flask, React, and
-        Android development. I've built comprehensive applications including a Twitter clone mobile
-        app, salon booking platform, and travel booking system. I specialize in creating scalable
-        backend APIs with MongoDB and MySQL, developing responsive frontends, and solving complex
-        programming challenges. Currently pursuing computer science with a focus on artificial
-        intelligence and modern web technologies.
+        I'm a dedicated Web Developer and Data Analyst with strong skills in Java, Python, React, and modern web development technologies. I build responsive, user-centric web applications and develop efficient backend systems using MySQL and MongoDB. Along with creating dynamic interfaces, I specialize in analyzing datasets, generating insights, and applying statistical techniques to support data-driven decision-making. My projects span interactive web platforms, data dashboards, and automated workflows. Currently pursuing Computer Science with a focus on data analytics, artificial intelligence, and scalable web application development.
       </motion.p>
     </>
   );
 };
 
-export default SectionWrapper(About, "about");
+const About = SectionWrapper(AboutComponent, "about");
+export default About;

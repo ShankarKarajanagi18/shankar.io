@@ -5,7 +5,7 @@ import { BallCanvas } from "./canvas";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { technologies } from "../constants";
 
-const Tech = () => {
+const TechComponent = () => {
   return (
     <>
       <motion.div variants={textVariant()} className="text-center mb-10">
@@ -31,4 +31,5 @@ const Tech = () => {
   );
 };
 
-export default SectionWrapper(Tech, "tech");
+const Tech = SectionWrapper(TechComponent, "tech");
+export default Tech;

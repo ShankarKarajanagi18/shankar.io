@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
 import SectionWrapper from "../hoc/SectionWrapper";
 
-const Experience = () => {
+const ExperienceComponent = () => {
   return (
     <>
       <motion.div variants={textVariant()} className="text-center">
@@ -23,4 +23,5 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "experience"); // ← CHANGED FROM "work" TO "experience"
+const Experience = SectionWrapper(ExperienceComponent, "experience");
+export default Experience;

@@ -54,7 +54,7 @@ const App = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
               className='text-[#dfd9ff] font-medium text-center lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-4'
             >
-              Full Stack Developer
+             Web Developer and Data Analyst
             </motion.p>
 
             {/* Short Bio */}
@@ -64,7 +64,7 @@ const App = () => {
               transition={{ duration: 0.5, delay: 0.6 }}
               className='text-secondary text-center max-w-3xl mt-6 text-[18px]'
             >
-              Building Amazing Web & Mobile Applications with React, Node.js, Java, Python Flask, and Android Studio
+              Designing User-Friendly Web Experiences and Delivering Actionable Data Insights
             </motion.p>
 
             {/* All Three Buttons with Same Outline Style */}
@@ -134,8 +134,8 @@ const App = () => {
 
                 <div className="flex gap-4 flex-wrap justify-center">
                   <a
-                    href="/updatedresume.pdf"
-                    download
+                  href="/shankar.io/Shnkar129_resume.pdf"
+                    download="Shnkar129_resume.pdf"
                     className="bg-[#8B5CF6] py-4 px-10 rounded-xl text-white font-bold text-lg hover:bg-[#7c3aed] transition-all shadow-lg flex items-center gap-2"
                   >
                     <span className="text-2xl">📄</span>
